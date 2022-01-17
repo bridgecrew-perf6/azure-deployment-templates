@@ -131,24 +131,7 @@ MongoPid=`ps -ef |grep "mongod --dbpath /var/lib/mongo/" | grep -v grep |awk '{p
 kill -2 $MongoPid
 
 # Set keyfile.
-echo "
-CtQTcxY/s8uVmnU+dQQtZ0FYUvsezaWPxzpnnc3q+vCVf2NNS27U5+127XXzjC1t
-Id+wpqY5z09OVItALNQR7EbyFOPfEf3Raasn3jrzO8xnwC9JrnnpEnh4fbywXBsN
-WjGoYAeLm5yX+yCkovzqY+tLAAiSbhE/r2v4hOvaWVPpAP9x4TYiwe+8KZtJQtvk
-yD4p7QrARYQOnWXUwjpf5M1kEg+PwKOLkv6R9OYuIh+tyTPAPjtpb+PCrbCTfVpC
-nZfl+TIEQ1YMZuwg8S/Wy8pdv9X/5Yz1MY7PD1GasG+jiRW1+jLtROBvhCmL9hfO
-6L3uUR0v/NPoSxOiBDkIyxiXqwzVsW0VOo5LSGE3JY989QCg4g3pJRu5lCTsIPeZ
-vQKoLayF3EXFNFCBehTbG7demoRh9bY6p/XyxtSMBbzg8zIDWpsxh43IbntvGX1+
-UPqP2oGOj957GmOvWlRfo+NaWKEKXTw2yA/JfAY8N9q85tDBQ4QxZ2syG35Iw8T4
-IzNz7K1fk8iAP/RoGZoGeB0pdOM1+317cfGGlZEAOi/udlmG4X+MxW7WLTHXwYke
-fsfnCMik+U6Bt0sX9xHBRlIpbKZCTj1Vy2QB84oCkOg/Pcp4CNZW0FGeNC5P5b6k
-ruBQQP8Ym9eCxkV8hYujalbzeaFpATxxpoaN+sW3YiaQhSPMKWp5TYT7/ywhEMS7
-eF3lQ+sOV7dKqE9e+ZtWrTvX7uyplgJ3Voi3dTEqxLQG4dfEhywaML2dGcEVp2sy
-NMXaaKxNDuOHU9qatN11cZaMNwKqhOpJnkxkZyfBhaeh6p0KYnHo/B7JRaGySTI0
-cQUwqXjfHMjMNWatqBQWxmtfprRSE9JqiozUQumPAKwZmCApv0f+Y7lgyLXgT+iY
-AjzvhPbnaDANw9NRNVumDyFLY5zo6JLSquzJaEBx2tTKu0THxpg3dK+szj8sWqsK
-vlHpbHvcTlQ3/+xim8Ul69GXUi6y
-" > /etc/mongokeyfile
+openssl rand -base64 525 > /etc/mongokeyfile
 chown mongod:mongod /etc/mongokeyfile
 chmod 600 /etc/mongokeyfile
 sed -i 's/^#security/security/' /etc/mongod.conf
