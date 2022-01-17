@@ -94,11 +94,9 @@ install_zabbix() {
 	/etc/init.d/zabbix_agentd start
 }
 
-
 install_mongo3
 disk_format
 install_zabbix
-
 
 # Start mongod service. 
 mongod --dbpath /var/lib/mongo/ --logpath /var/log/mongodb/mongod.log --fork

@@ -64,14 +64,14 @@
         },
         "primaryNodeVmSize": {
             "type": "string",
-            "defaultValue": "Standard_A1_v2",
+            "defaultValue": "Standard_A4_v2",
             "metadata": {
                 "description": "The size of the virtual machines used when provisioning the primary node"
             }
         },
         "secondaryNodeVmSize": {
             "type": "string",
-            "defaultValue": "Standard_A1_v2",
+            "defaultValue": "Standard_A4_v2",
             "metadata": {
                 "description": "The size of the virtual machines used when provisioning secondary node(s)"
             }
