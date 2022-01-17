@@ -131,7 +131,7 @@ MongoPid=`ps -ef |grep "mongod --dbpath /var/lib/mongo/" | grep -v grep |awk '{p
 kill -2 $MongoPid
 
 # Set keyfile.
-openssl rand -base64 525 > /etc/mongokeyfile
+echo "vfr4CDE1" > /etc/mongokeyfile
 chown mongod:mongod /etc/mongokeyfile
 chmod 600 /etc/mongokeyfile
 sed -i 's/^#security/security/' /etc/mongod.conf
