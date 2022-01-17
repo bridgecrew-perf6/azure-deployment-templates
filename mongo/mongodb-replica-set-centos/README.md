@@ -18,7 +18,7 @@ The nodes are under the same subnet 10.0.1.0/24. The primary node ip is 10.0.1.2
 
 ```powershell
 az group create --name <resource-group-name> --location <resource-group-location> # Use this command when you need to create a new resource group for your deployment.
-az deployment group create --resource-group <my-resource-group> --template-uri https://raw.githubusercontent.com/migr8/Scripts/main/Docker/Mongo/mongodb-replica-set-centos/azuredeploy.json?token=GHSAT0AAAAAABNPJMFML5ACKAHCVTWR5WTAYPPCPNA
+az deployment group create --resource-group <my-resource-group> --template-uri https://raw.githubusercontent.com/migr8/AzureDeploymentTemplates/main/mongo/mongodb-replica-set-centos/azuredeploy.json
 ```
 
 ## Important Notice
