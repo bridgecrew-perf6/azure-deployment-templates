@@ -3,13 +3,13 @@
 	"contentVersion": "1.0.0.0",
 	"parameters": {
 		"adminUsername": {
-			"value": "vrpm"
+			"value": "GEN-UNIQUE"
 		},
 		"mongoAdminUsername": {
-			"value": "root"
+			"value": "GEN-UNIQUE"
 		},
 		"mongoAdminPassword": {
-			"value": "a89_@5rRT__xrRlL123_"
+			"value": "GEN-PASSWORD"
 		},
 		"secondaryNodeCount": {
 			"value": 2
@@ -18,22 +18,22 @@
 			"value": 16
 		},
 		"dnsNamePrefix": {
-			"value": "vrpm"
+			"value": "GEN-UNIQUE"
 		},
 		"centOsVersion": {
 			"value": "7.7"
 		},
 		"primaryNodeVmSize": {
-			"value": "Standard_A2_v2"
+			"value": "Standard_A1_v2"
 		},
 		"secondaryNodeVmSize": {
-			"value": "Standard_A2_v2"
+			"value": "Standard_A1_v2"
 		},
 		"zabbixServerIPAddress": {
 			"value": "Null"
 		},
 		"adminPasswordOrKey": {
-			"value": "b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAABFwAAAAdzc2gtcn"
+			"value": "GEN-SSH-PUB-KEY"
 		}
 	}
 }
