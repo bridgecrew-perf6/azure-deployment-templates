@@ -3,13 +3,13 @@
 	"contentVersion": "1.0.0.0",
 	"parameters": {
 		"adminUsername": {
-			"value": "GEN-UNIQUE"
+			"value": "vrpm"
 		},
 		"mongoAdminUsername": {
-			"value": "GEN-UNIQUE"
+			"value": "root"
 		},
 		"mongoAdminPassword": {
-			"value": "GEN-PASSWORD"
+			"value": "a89_@5rRT__xrRlL123_"
 		},
 		"secondaryNodeCount": {
 			"value": 2
@@ -18,22 +18,22 @@
 			"value": 16
 		},
 		"dnsNamePrefix": {
-			"value": "GEN-UNIQUE"
+			"value": "vrpm"
 		},
 		"centOsVersion": {
 			"value": "8.0"
 		},
 		"primaryNodeVmSize": {
-			"value": "Standard_A1_v2"
+			"value": "Standard_A4_v2"
 		},
 		"secondaryNodeVmSize": {
-			"value": "Standard_A1_v2"
+			"value": "Standard_A4_v2"
 		},
 		"zabbixServerIPAddress": {
 			"value": "Null"
 		},
 		"adminPasswordOrKey": {
-			"value": "GEN-SSH-PUB-KEY"
+			"value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDs0LBjFnZX0t53YS9Z80PfffdJg7pwL7r/XbCo79C2uOi+Sj3Y/tX6gErhx10+zXgjGSg2fR8JO1x7yY79s9V9xL5wVgqP6xDO8zfNhV8NqgpYT8sn7ohP7RVfNiAtQSxO1aFOTNjNvGlqWxWbjNRJZwhCi7EfssQ2tpk7339QI5Ld4w2mVaLxwK6e0ONf+vel4ICLYKLCUizKLA3W8KCw/MJOtZ0cw8tCZ9/Qvh6vDr5+zYnb9o6etchGg/LkYKVP/yyffEP6TB9g2OGS2yG4p0/Kdefr4cNIb6BGjaiAel/pFYAVnaabEX/YwlDh9eKoNnvLTtjq0knvOUP8AK+yq1SvWHclpajQWjDpuJ2z/HSfdwxy0wbz6I3cLcQJV6QV2GWtrnDTGqEjzAGEUPhV72wMAOgpjeICu1rwXF93twzGTibd/FyKU+v5ZO/a89Y8Yywgd7XSJQS5KZeloe7aMpx8YpUEfz+f3/Rhrm7Jeb7XeopwPrcV+jjQXJjE0Ys= root@MacBookPro"
 		}
 	}
 }
